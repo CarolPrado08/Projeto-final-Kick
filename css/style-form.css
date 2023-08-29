@@ -1,0 +1,358 @@
+@import url(//fonts.googleapis.com/earlyaccess/jejuhallasan.css);
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Subrayada&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap');
+
+
+
+body{
+    background-image: url(../img/background-header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: max-content;
+    margin: 0;
+    padding: 0;
+}
+
+
+.logo-school{
+    width: 160px;
+}
+
+#nav_link{
+    align-items: flex-start;
+    justify-content: end;
+
+}
+
+.seta-left{
+    margin-top: 6px;
+    width: 30px;
+    height: 30px;
+}
+.nav-item{
+    display: flex;
+   
+}
+
+
+
+#last{
+    margin-right: 70px;
+    margin-bottom: 10px;
+    padding: 8px;
+   
+    
+    
+}
+
+ul li{
+    display: inline;
+    margin-right: 30px;
+   font-size: 20px;
+   font-family: 'Jeju Hallasan', cursive;
+}
+  
+ul li:hover{
+    text-decoration: underline;
+}
+
+    
+.side_nav{
+    margin-right: 50px;
+}
+
+
+a{
+     margin-top: 0px;
+     text-decoration: none;
+     color: #000;
+}
+
+.titulo_form{
+    font-family: 'Montserrat Subrayada', sans-serif;
+    font-size: 40px;
+    color: #000;
+    text-shadow: 
+    1px 1px 1px #FFF, 
+    0px 1px 1px #FFF,      
+    3px -0px 5px #FFF,    
+    2px 1px 4px #FFF;
+    width: 700px;
+    text-align: center;
+    margin: auto;
+    margin-top: 10px;
+}
+
+h2{
+    text-align: center;
+    margin: 18px;
+}
+
+#container-form{
+    margin: 0 auto;
+    background-image: url(../img/bg-paper.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 680px;
+    padding: 10px 20px 30px 30px;
+    margin-top: 40px;
+    border-radius: 25px; 
+    margin-bottom: 129px;  
+}
+
+.nome{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.coluna{
+    
+    flex-direction: column;
+}
+
+.label-text{
+    margin-left: 50px;
+    font-family: 'Jeju Hallasan', cursive;
+    font-size: 19px;
+}
+
+
+
+input:not(#meuBotao){
+    display: block;
+    margin: 10px;
+    margin-bottom: 10px;
+    width: 250px;
+    height: 30px;
+    border-radius: 25px;
+    margin-left: 50px;
+    
+}
+
+
+#meuBotao{
+   
+    cursor: pointer;
+    margin-top: 10px;
+    width: 220px;
+    height: 30px;
+    border: none;
+    border-radius: 25px;
+    background-color: #52b0d2;
+    color: #000;
+    border: 2px solid #000;
+    transition: 0.5s;
+    
+    margin-left: 170px;
+    
+}
+
+#meuBotao:hover{
+    background-color: rgb(52, 88, 180);
+    transition: 0.5s;
+    font-size: 16px;
+}
+
+#frase{
+    text-align: center;
+}
+
+#p-footer{
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 18px;
+
+}
+
+#container_infos{
+    background-color: #F6D75A;
+    display: flex ;
+    justify-content: center;
+    height: 213px;
+   text-align: center;
+
+}
+
+#contatos{
+    width: 450px;
+    border-right: 1px solid black;
+    height: 150px;
+    margin-top: 20px;
+    margin-right: 50px;
+}
+
+
+#localizacao{
+    width: 350px;
+
+}
+
+
+.titulo-contatos{
+    font-family: 'Jeju Hallasan', cursive;
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 40px;
+    margin-top: 20px;
+   
+    
+}
+
+.titulo-endereco{
+    font-family: 'Jeju Hallasan', cursive;
+    font-size: 24px;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+
+}
+
+
+.icon-info{
+    width: 20px;
+}
+
+.icon-info-2{
+    width: 5px;
+}
+  
+
+.frase-info{
+    font-family: 'Montserrat Alternates', sans-serif;
+    margin-top: 10px;
+}
+
+.frase-info-1{
+    font-family: 'Montserrat Alternates', sans-serif;
+    margin-top: 10px;
+
+}
+
+.frase-avenida{
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: bold;
+}
+
+
+
+
+
+/* responsividade */
+
+@media (max-width: 650px){
+    .nav-link{
+        text-align: center;
+    }
+
+    .last{
+        margin-right: 0px;
+        margin-bottom: 0px;
+        background-color: transparent;
+        padding: 0px;
+        border-radius: none;
+        border: none;
+    }
+    .titulo_form{
+        font-family: 'Montserrat Subrayada', sans-serif;
+        font-size: 38px;
+        color: #000;
+        text-shadow: 
+        1px 1px 1px #FFF, 
+        0px 1px 1px #FFF,      
+        3px -0px 5px #FFF,    
+        2px 1px 4px #FFF;
+        width: 300px;
+        text-align: center;
+        margin: auto;
+        margin-top: 10px;
+    }
+
+    #container-form{
+        width: 320px;
+       
+    }
+
+    .label-text{
+        margin-left: 0px;
+       
+    }
+    
+    
+    
+    input:not(#meuBotao){
+      
+        margin-left: 0px;
+        
+    }
+
+    #meuBotao{
+    margin-left: 18px;
+    }
+
+    .nav-item{
+        text-align: center;
+    }
+
+    #last{
+    
+        margin-bottom: 10px;
+      
+        
+        
+    }
+    .seta-left{
+        margin-left: 100px;
+        margin-top: 15px;
+    }
+
+
+    #p-footer{
+        font-size: 16px;
+        
+    
+    }
+
+     /* parte 07 - contatos/endereço */
+
+     #container_infos{
+        height: max-content;
+        flex-wrap: wrap;
+        
+       }
+    
+       #contatos{
+        border-right: none;
+        margin-right: 20px;
+        margin-left: 20px;
+        
+        
+       }
+    
+       .frase-info{
+        margin-bottom:20px;
+       }
+    
+    
+       .titulo-endereco{
+        margin-top: 30px;
+        padding-top: 25px;
+        border-top: 1px solid #000;
+       }
+    
+      
+    
+       .frase-avenida{
+        margin-bottom: 25px;
+       }
+}
+
+
+
+@media (max-width: 800px){
+
+    
+}

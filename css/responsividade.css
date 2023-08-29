@@ -1,0 +1,231 @@
+
+/* MOBILE */
+
+@media(max-width: 600px){ 
+    /* parte 01 - header  */
+    header{
+        height: max-content;
+    }
+   
+    .nav-link{
+        text-align: center;
+    }
+
+    .last{
+        margin-right: 0px;
+        margin-bottom: 0px;
+        background-color: transparent;
+        padding: 0px;
+        border-radius: none;
+        border: none;
+    }
+
+    .container-fluid{
+        margin-right: 15px;
+    }
+
+
+    ul li{
+        
+        margin-top: 5px;
+        margin-right: 10px;
+        margin-left: 10px;
+        flex-wrap: wrap;
+    }
+
+    /* conteúdo */
+    
+    .titulo_header{
+        width: 285px;
+        font-size: 28px;
+        margin-top: 0px;
+        margin-left: 0px;
+        margin-right: 0px;
+        text-align: center; 
+       
+
+    }
+    
+    .subtitulo_header{
+        justify-content: center;
+        font-size: 18px;
+        align-items: center;
+        text-align: center;
+       margin-top: 5px;
+       margin-bottom: 35px;
+        padding: 15px;
+        width: 285px;
+        margin-left: 0px;
+        margin-right: 0 ;
+    }
+
+    .t_img_container{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width: 360;
+        padding-right: 115px;
+        
+    }
+
+    .icon-kid-2{
+        display: flex;
+       align-items: center;
+       margin: 0 auto;
+        width: 300px;
+        padding-right: 25px;
+    }
+
+    
+
+    .icon-kid{
+        display: none;
+    }
+
+    /* parte 02 - aulas */
+
+
+    .titulo_paginas{
+        font-size: 22px;
+        margin-bottom: 15px;
+    }
+
+    .container_page_2{
+    
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-right: 10px;
+        margin-left: 10px;
+        height: max-content;
+        margin-bottom: 25px;
+    }
+
+    .particular, .ludico{
+        margin-top: 20px;
+        
+    }
+
+    .ludico{
+        margin-bottom: 20px;
+    }
+
+    /* parte 03 - benefícios */
+
+    #container_page_3{
+        height: 350px;
+        flex-wrap: wrap;
+        
+    }
+
+    .text_icon{
+        width: 150px;
+        text-align: center;
+        padding-bottom: 20px;
+        padding-top: 20px;
+        margin-top: 10px;
+    }
+
+    .cima{
+        margin-top: 35px;
+    }
+
+    /* parte 04 - o ensino */
+
+    .container_page_4{
+            max-width: 85%;
+            
+        
+    }
+    
+    .titulo_paginas-3{
+    
+        font-size: 24px;
+    }
+        
+
+
+   /* parte 05 - instalações */
+
+   #carrossel{
+    margin: auto;
+    width: 100%;
+    margin-bottom: 40px;
+}
+   /*parte 05 - sobre nós */
+
+   .container_page_5{
+    height: max-content;
+   }
+
+   .text-page-5{
+    margin-top: 20px;
+    font-size: 18px;
+    margin-left: 15px;
+    margin-right: 15px;
+    
+   }
+
+   /* parte 06 - matrícula */
+   .container_page_6{
+   width: 300px;
+    height: 280px;
+   }
+
+   .titulo_paginas-2{
+    margin-top: 60px;
+
+   }
+
+   .text-matricula{
+    margin-right: 5px;
+   }
+
+   /* parte 07 - contatos/endereço */
+
+   #container_infos{
+    height: max-content;
+    flex-wrap: wrap;
+    
+   }
+
+   #contatos{
+    border-right: none;
+    margin-right: 20px;
+    margin-left: 20px;
+    
+    
+   }
+
+   .frase-info{
+    margin-bottom:20px;
+   }
+
+
+   .titulo-endereco{
+    margin-top: 30px;
+    padding-top: 25px;
+    border-top: 1px solid #000;
+   }
+
+  
+
+   .frase-avenida{
+    margin-bottom: 25px;
+   }
+
+   /* footer final */
+   #p-footer{
+   font-size: 15px;
+   }
+
+
+}
+
+
+
+
+
+
+/* monitores maiores */
+

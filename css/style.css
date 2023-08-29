@@ -1,0 +1,460 @@
+@import url(//fonts.googleapis.com/earlyaccess/jejuhallasan.css);
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Subrayada&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap');
+
+header{
+    background-image: url(../img/background-header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: max-content;
+    
+}
+
+.logo-school{
+    width: 160px;
+}
+
+#nav_link{
+    align-items: flex-start;
+    justify-content: end;
+
+}
+
+
+
+.last{
+    margin-right: 70px;
+    margin-bottom: 20px;
+    background-color: #adbc3a;
+    padding: 10px;
+    border-radius: 25px;
+    border: 1px solid #000;
+    
+}
+
+ul li{
+    display: inline;
+    margin-right: 30px;
+   font-size: 20px;
+   font-family: 'Jeju Hallasan', cursive;
+
+}
+  
+ul li:hover{
+    text-decoration: underline;
+}
+
+    
+.side_nav{
+    margin-right: 50px;
+}
+
+
+a{
+     margin-top: 35px;
+     text-decoration: none;
+     color: #000;
+}
+
+.titulo_header{
+    font-family: 'Montserrat Subrayada', sans-serif;
+    font-size: 45px;
+    color: #000;
+    text-shadow: 
+    1px 1px 1px #FFF, 
+    0px 1px 1px #FFF,      
+    3px -0px 5px #FFF,    
+    2px 1px 4px #FFF;
+    margin-top: 120px;
+    margin-left: 140px;
+    margin-right: 90px;
+    
+}
+
+.subtitulo_header{
+    font-size: 20px;
+    font-family: 'Jeju Hallasan', cursive;
+    margin-left: 140px;
+    margin-top: 35px;
+    border: 2px solid #000;
+    border-radius: 25px;
+    padding: 17px;
+    width: 450px;
+    text-shadow: 
+    1px 1px 1px #FFF, 
+    0px 1px 1px #FFF,      
+    3px -0px 5px #FFF,    
+    2px 1px 4px #FFF;
+}
+
+.t_img_container{
+    display: flex;
+}
+
+.titulo_container{
+    display: flex;
+    flex-direction: column;
+    width: 64%;
+}
+
+.icon-kid{
+    margin-right: 140px;
+    margin-bottom: 80px;  
+}
+
+.icon-kid-2{
+    display: none;
+}
+
+
+/* Página 01 */
+
+.titulo_paginas{
+    font-family: 'Jeju Hallasan', cursive;
+    font-size: 24px;
+    text-align: center;
+    margin-top: 45px;
+    margin-bottom: 100px;
+}
+
+
+.container_page_2{
+    font-family: 'Jeju Hallasan', cursive;
+    display: flex;
+    height: 260px;
+    justify-content: space-evenly;
+    margin-top: 45px;
+    margin-bottom: 100px;
+    
+}
+
+.img_teen{
+    width: 150px;
+}
+.img_kids{
+    width: 150px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+.img_teacher{
+    width: 150px;
+    margin-top: 35px;
+    margin-bottom: 25px;
+}
+
+
+.juvenil{
+    max-height: max-content;
+    width: 175px;
+    justify-content: space-evenly;
+    text-align: center;
+    border: 2px solid #000;
+    border-radius: 25px;
+    background-color: #D9D9D9;
+    padding-top: 15px;
+    
+
+}
+
+.ludico{
+    max-height: max-content;
+    width: 175px;
+    justify-content: space-evenly;
+    text-align: center;
+    border: 2px solid #000;
+    border-radius: 25px;
+    background-color: #D9D9D9;
+    padding-top: 15px;
+}
+
+.particular{
+    max-height: max-content;
+    width: 200px;
+    justify-content: space-evenly;
+    text-align: center;
+    border: 2px solid #000;
+    border-radius: 25px;
+    padding-top: 15px;
+    background-color: #FEC092;
+}
+
+/* textos dos tipos de aulas */
+
+.p_juvenil .p_particular .p_ludico{
+    margin-bottom: 10px;
+}
+
+
+/* parte 03 */
+
+#container_page_3{
+    display: flex;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 20px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #F6D75A;
+    height: 150px;
+    
+
+}
+
+.text_icon{
+    display: flex;
+    flex-direction: column;
+    
+    max-height: 100px;
+    align-items: center;
+    margin-top: 50px;
+
+}
+
+.icon{
+    width: 40px;
+    margin-bottom: 10px;
+}
+
+.icon-child{
+    width: 30px;
+    margin-bottom: 5px;
+}
+
+/* página 04 */
+
+.instalacoes{
+    margin-bottom: 25px;
+    
+}
+
+
+#carrossel{
+    margin: auto;
+    width: 600px;
+    margin-bottom: 40px;
+}
+
+
+
+/* Parte 04 ------------------------------------------------------------------------------ */ 
+
+.container_page_4{
+    margin: auto;
+        margin-top: 40px;
+        background-color: #adbc3a;
+        text-align: justify;
+        padding-top: 5px;
+        padding-bottom: 50px;
+        max-width: 60%;
+        border-radius: 25px;
+        border: 2px dashed #000;
+    
+}
+
+.titulo_paginas-3{
+    font-family: 'Jeju Hallasan', cursive;
+    font-size: 24px;
+    text-align: center;
+    margin-top: 45px;
+    margin-bottom: 35px;
+
+}
+
+.container-textos-descritivos{
+    text-align: justify;
+    max-width: 80%;
+    margin: auto;
+    
+}
+
+.container-textos-descritivos li{
+    font-family: 'Montserrat Alternates', sans-serif;
+
+}
+
+.container-textos-descritivos li:hover{
+    text-decoration: none;
+}
+
+ul li span{
+    font-weight: bold;
+}
+
+
+/* parte 05 */
+
+.container_page_5{
+    background-color: #D9D9D9;
+    text-align: justify;
+    padding-top: 5px;
+    padding-bottom: 50px;
+}
+
+.text-page-5{
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 20px;
+    line-height: 1.5;
+    margin-top: -70px;
+    margin-left: 120px;
+    
+    margin-right: 120px;
+    
+}
+
+/* parte 06 */
+
+
+.container_page_6{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 45px;
+    width: 420px;
+    height: 300px;
+    border: 2px dashed #000;
+    border-radius: 35px;
+    background-color: #FEC092;
+}
+
+.titulo_paginas-2{
+    font-family: 'Jeju Hallasan', cursive;
+    font-size: 24px;
+    text-align: center;
+    margin-top: 90px;
+    margin-bottom: 100px;
+    
+}
+
+.title_bold{
+    font-weight: bold;
+}
+
+.text-matricula{
+    font-family: 'Montserrat Alternates', sans-serif;
+    text-align: center;
+    font-size: 20px;
+    margin-top: -85px;
+
+}
+
+
+
+.custom-button {
+    font-family: 'Montserrat Alternates', sans-serif;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    width: 150px;
+    border: none;
+    background-color: #52A2C5;
+    color: #000;
+    border-radius: 25px;
+    border: 2px solid #000;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: 0 auto;
+    margin-top: 25px;
+    
+  }
+  
+  /* Efeito de hover */
+  .custom-button:hover {
+    background-color: #F6D75A;
+    transition: background-color 0.3s ease;
+    font-weight: bolder;
+    
+  }
+
+
+
+/* parte 07 de contatos e endereço */
+
+#container_infos{
+    background-color: #F6D75A;
+    display: flex ;
+    justify-content: center;
+    height: 210px;
+    text-align: center;
+
+}
+
+#contatos{
+    width: 450px;
+    border-right: 1px solid black;
+    height: 150px;
+    margin-top: 20px;
+    margin-right: 50px;
+}
+
+
+#localizacao{
+    width: 350px;
+
+}
+
+
+.titulo-contatos{
+    font-family: 'Jeju Hallasan', cursive;
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 40px;
+    margin-top: 20px;
+   
+    
+}
+
+.titulo-endereco{
+    font-family: 'Jeju Hallasan', cursive;
+    font-size: 24px;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+
+}
+
+
+.icon-info{
+    width: 20px;
+}
+
+.icon-info-2{
+    width: 5px;
+}
+  
+
+.frase-info{
+    font-family: 'Montserrat Alternates', sans-serif;
+    margin-top: 10px;
+}
+
+.frase-info-1{
+    font-family: 'Montserrat Alternates', sans-serif;
+    margin-top: 10px;
+
+}
+
+.frase-avenida{
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: bold;
+}
+
+/* footer */
+
+footer{
+    background-image: url(../img/background-header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 50px;
+}
+
+#p-footer{
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 18px;
+
+}

@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/bootstrap.bundle.min.js"></script>
+
+    
+
+    <!-- validação de campos -->
+    <script src="js/validacao.js"></script>
+
+    <link rel="stylesheet" href="css/style-form.css">
+
+
+    <title>FORMULÁRIO DE ACESSO:</title>
+
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar navbar-expand-lg bg bg-opacity-10">
+            <div class="container-fluid">
+    
+                <a href="#" class="navbar-brand"><img src="img/logo.png" class="logo-school"></a>
+    
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav_link" aria-controls="nav_link" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+    
+                <div class="collapse navbar-collapse" id="nav_link">
+                    <ul class="navbar-nav">
+    
+                        <li class="nav-item">
+                            <img src="icons/seta-left.png" class="seta-left">
+                            <a href="index.html" class="nav-link active" id="last">Voltar a HOME</a>
+                        </li>
+                        
+                    </ul>
+    
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="titulo_form">
+    <h1>Complete o formulário para realizar a matrícula</h1>
+    </div>
+
+    <div id="container-form">
+
+        <h2>Formulário de cadastro:</h2>
+
+        <form id="meuFormulario" class="nome">
+        
+
+            <div class="coluna">
+                <label class="label-text" for="i_nome">Nome do aluno(a): *</label>
+                <input type="text" id="i_nome" required>
+            </div>
+
+            <div class="coluna">
+                <label class="label-text" for="i_idade">Idade: *</label>
+                <input type="number" id="i_idade" required>
+            </div>
+
+            <div class="coluna">
+                <label class="label-text" for="">Nome do responsável: *</label>
+                <input type="text" id="i_responsavel" required>
+            </div>
+
+            <div class="coluna">
+                    <label class="label-text" for="">CPF do responsável: *</label>
+                    <input type="number" id="i_cpf" pattern="[0-9]{11}" required>
+                </div>
+
+            <div class="coluna">
+                <label class="label-text" for="">E-mail: *</label>
+                <input type="email" id="i_email" placeholder="email@mail.com" required>
+            </div>
+
+            <div class="coluna">
+                <label class="label-text" for="">Telefone/Celular: *</label>
+                <input type="tel" id="i_tel" placeholder="(00) 00000-0000" required>
+            </div>
+
+       
+            <input id="meuBotao" type="submit" value="Enviar" id="btt" onclick="validacao(); limparFormulario();" on value="Cadastrar">
+            <br>
+
+
+        </form>
+
+    </div>
+
+    <div id="container_infos">
+        <div id="contatos">
+            <h2 class="titulo-contatos"> Dúvidas? </h2>
+            <p class="frase-info"> <img class="icon-info" src="icons/phone-solid.svg" alt="ícone de telefone"> <span class="title_bold">Tel:</span> (11) 4728-0000</p>
+            <p class="frase-info-1"> <img class="icon-info" src="icons/envelope-solid.svg" alt="ícone de e-mail"> <span class="title_bold">E-mail:</span> skyfall@school.com.br</p>
+        </div>
+        <div id="localizacao">
+            <h2 class="titulo-endereco"> Endereço: </h2>
+            <img class="icon-info" src="icons/map-location-dot-solid.svg" alt="ícone de mapa">
+            <p class="frase-avenida">Av. Fictícia dos Sonhos, nº 370, <br> São Paulo, CEP: 08760-111</p>
+        </div>
+    </div>
+    
+    
+    <footer>
+        <p id="p-footer">Desenvolvido por Carolina Prado - 2023</p>
+    </footer>
+       
+    </body>
+    
+</html>
+            
+            
+            
+            
+            
+
+    
+      
+    
+</body>
+</html>
